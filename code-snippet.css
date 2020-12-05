@@ -1,0 +1,58 @@
+/*--- Dark Mode - Project Huddle ---*/
+.ph-heading-admin-wrap,
+.ph-heading-admin-wrap > ul,
+.ph-heading-admin-wrap .el-menu-item.is-active,
+.ph-content-admin-wrap .project-huddle,
+.ph-tasks-table-wrap,
+.ph-tasks-table-wrap .el-table,
+.ph-tasks-table-wrap .el-table tr,
+.ph-tasks-table-wrap .el-table th,
+.ph-mockup-admin > ul,
+.ph-status__item,
+#ph-system-status-text,
+#fs_pricing_wrapper,
+.fs-section--faq {
+  background: #202020 !important;
+}
+
+.ph-heading-admin-wrap > ul > li.el-menu-item.is-active,
+.ph-content-admin-wrap .el-switch__label,
+.ph-project-list-card .el-card__body .ph-project-list-card__title,
+.ph-inline-stats,
+.el-menu--horizontal > .el-menu-item.is-active,
+.ph-status__item .ph-text-lg,
+#ph-system-status-text,
+#fs_billing_address input::placeholder,
+#fs_billing_address input:focus {
+  color: white !important;
+}
+
+.ph-project-list-card .el-card__body {
+  background: #202020 !important;
+  border: solid 1px white !important;
+}
+
+.ph-project-header__title > .el-button,
+.ph-project-listing .el-button,
+.ph-select-username,
+#project_emails_notifications_container a.el-button,
+#fs_account_details tr.alternate nobr,
+#fs_account_details tr.alternate code,
+#fs_account_details tr.alternate label > span,
+.fs-section h2,
+.fs-section p,
+.fs-page-title h2,
+.fs-page-title h3,
+.fs-section--faq-item h3,
+.fs-section--faq-item p {
+  color: #999 !important;
+}
+#fs_billing_address label > span {
+  display: none;
+}
+#fs_billing_address input {
+  background: rgba(56,56,56,.36) !important;
+  border: 1px solid rgba(255,255,255,.2);
+  border-radius: 4px;
+  padding: 4px;
+}
