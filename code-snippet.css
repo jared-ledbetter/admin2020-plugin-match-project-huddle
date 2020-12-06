@@ -1,3 +1,16 @@
+/*--- Dark Mode ---*/
+.a2020_night_mode .customjscss-options-header,
+.a2020_night_mode .customjscss-options-data,
+.a2020_night_mode .customjscss-editor,
+.Sa2020_night_mode .customjscss-editor-active,
+.a2020_night_mode .customjscss-editor-header,
+.a2020_night_mode .customjscss-options,
+.a2020_night_mode .customjscss-options-active {
+  background-color: #202020 !important;
+  background: #202020 !important;
+  background-image: unset !important;
+}
+
 /*--- Dark Mode - Project Huddle ---*/
 .ph-heading-admin-wrap,
 .ph-heading-admin-wrap > ul,
@@ -11,7 +24,8 @@
 .ph-status__item,
 #ph-system-status-text,
 #fs_pricing_wrapper,
-.fs-section--faq {
+.fs-section--faq,
+#ph_website_js_code {
   background: #202020 !important;
 }
 
