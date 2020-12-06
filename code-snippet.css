@@ -25,7 +25,8 @@
 #ph-system-status-text,
 #fs_pricing_wrapper,
 .fs-section--faq,
-#ph_website_js_code {
+#ph_website_js_code,
+#ph-website-website-pages .ph-website-admin__menu {
   background: #202020 !important;
 }
 
